@@ -1,0 +1,88 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    background-color: #D3D3D3; /* Color de fondo gris claro */
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Estilo para la barra de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Letras blancas */
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #5988FF; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilo de las secciones */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #FFFFFF; /* Fondo blanco para las secciones */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los widgets */
+#widget-meteorologico,
+#widget-instagram,
+#widget-noticias {
+    margin-bottom: 20px;
+}
+
+/* Estilo de los iframes */
+iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Estilos y animaciones para imágenes */
+img {
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo de los encabezados */
+h1, h2 {
+    color: #5988FF;
+}
+
+/* Estilo de los párrafos */
+p {
+    font-size: 14px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+}
